@@ -1,0 +1,12 @@
+2025-01-23 11:49:30 AM - INFO - Starting the program
+2025-01-23 11:49:30 AM - INFO - *************** TestLog1002: Verifying Home Page Title ***************
+2025-01-23 11:49:30 AM - INFO - Launching the browser and navigating to the application URL.
+2025-01-23 11:49:32 AM - INFO - Fetching the page title for validation.
+2025-01-23 11:49:32 AM - INFO - Home page title validation passed. Title: 'Demo Web Shop'
+2025-01-23 11:49:32 AM - INFO - Closing the browser.
+2025-01-23 11:50:54 AM - INFO - Starting the program
+2025-01-23 11:50:54 AM - INFO - *************** TestLog1002: Verifying Home Page Title ***************
+2025-01-23 11:50:54 AM - INFO - Launching the browser and navigating to the application URL.
+2025-01-23 11:50:57 AM - INFO - Fetching the page title for validation.
+2025-01-23 11:50:57 AM - INFO - Home page title validation passed. Title: 'Demo Web Shop'
+2025-01-23 11:50:57 AM - INFO - Closing the browser.
