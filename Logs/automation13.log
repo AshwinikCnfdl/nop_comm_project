@@ -10,3 +10,15 @@
 2025-01-23 11:50:57 AM - INFO - Fetching the page title for validation.
 2025-01-23 11:50:57 AM - INFO - Home page title validation passed. Title: 'Demo Web Shop'
 2025-01-23 11:50:57 AM - INFO - Closing the browser.
+2025-01-26 16:24:17 PM - INFO - Test is staterd Test_login_gen_0025
+2025-01-26 16:24:21 PM - INFO - Open the browser navigated tothttps://demowebshop.tricentis.com/
+2025-01-26 16:25:15 PM - INFO - Test is staterd Test_login_gen_0025
+2025-01-26 16:25:17 PM - INFO - Open the browser navigated tothttps://demowebshop.tricentis.com/
+2025-01-26 16:25:20 PM - INFO - max window
+2025-01-26 16:25:20 PM - INFO - navigate to home page
+2025-01-26 16:25:21 PM - INFO - click on the login button
+2025-01-26 16:25:21 PM - INFO - enter the user name
+2025-01-26 16:25:22 PM - INFO - enter the pwd
+2025-01-26 16:25:22 PM - INFO - click on the login button
+2025-01-26 16:25:22 PM - ERROR - demo error
+2025-01-26 16:25:22 PM - WARNING - demo warring

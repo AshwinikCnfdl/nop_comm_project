@@ -15,7 +15,7 @@ from faker import Faker
 class Test_Reg_001:
     # Test setup
     URL = ReadConfigData.get_demoapplication_url()
-    logger1 = LogGen.log_gen()
+    logger1 = LogGen.setup_logger()
 
     @pytest.mark.regration
     def test_Home_title(self, setup):

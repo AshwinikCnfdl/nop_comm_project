@@ -1,9 +1,7 @@
 import time
 
 import pytest
-from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 from Configrations.Read_config_file import ReadConfigData
 from POM.Home_page_for_user import Home_page_user
 from POM.User_login_page import login_page_User
