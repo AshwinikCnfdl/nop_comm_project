@@ -1,16 +1,13 @@
 import time
 
 import pytest
-from selenium.webdriver import Chrome
 from POM.Home_page_for_user import Home_page_user
-from POM.Login_page import login_page
 from Configrations.Read_config_file import ReadConfigData
 from POM.Reg_page_user import Reg_page_user
 from utilities.Write_test_data import Read_write_csv_file
 from utilities.CustomLogger import LogGen
 import random
 import string
-from faker import Faker
 
 class Test_Reg_001:
     # Test setup

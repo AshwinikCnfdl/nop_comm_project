@@ -1,37 +1,45 @@
-s = "aaaabbbbcccc"
-print(s.count("a")) #  4
-print(s.count("a",4)) # 0
+from abc import abstractmethod,ABC
 
-name = "Rushath"
-print(name.count("a"))
+class Shoppng_cart(ABC):
+    @abstractmethod
+    def serach(self):
+        pass
+    @abstractmethod
+    def order(self):
+        pass
 
-s = "hello i am python"
-print(s.split()) #['hello', 'i', 'am', 'python']
-print(s.split("h")) #['', 'ello i am pyt', 'on']
-print(s.split("h",1)) #['', 'ello i am python']
+    @abstractmethod
+    def login(self):
+        pass
 
-# wap to print how many word present in the String
-# sparete the data,mm,yyyy dob = "15-02-2024"
+    @abstractmethod
+    def reg(self):
+        pass
 
-s = "hello i am python hello i am java"
-words = s.split() #['hello', 'i', 'am', 'python']
-print(len(words))
-print(s.count(" "))
-dob = "15-02-2024"
-dd,mm,yyyy = dob.split("-") #[15,02,2024]
-print(dd,mm,yyyy)
+    @abstractmethod
+    def cancle(self):
+        pass
 
-# join method:-- it return the String it joins each char with wich char u passed
-# "-".join(iterable)
+class Flipkart(Shoppng_cart):
+    def serach(self):
+        print("u can search a product ")
 
-s = "hello"
-print("&".join(s))
+    def order(self):
+        print("u can order")
 
-#wap to convert IND date formate to US Date Formate
-#29-01-2024  :--- convert 2024-01-29
+    def login(self):
+        print("u can login")
 
-In = "29-01-2024"
-split_IN = In.split("-") # [29 , 01 ,2024]
-split_Us = split_IN[::-1] #[2024,01,29]
-us =  "-".join(split_Us) # 2024-01-29
-print(us)
+
+    def reg(self):
+        print("u can reg")
+
+
+    def cancle(self):
+        print("u can cancel")
+
+f = Flipkart()
+f.serach()
+f.order()
+f.reg()
+f.cancle()

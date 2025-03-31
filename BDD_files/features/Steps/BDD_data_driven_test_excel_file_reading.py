@@ -54,10 +54,8 @@ def enter_all_details(context, location, sheet_name):
         rp.enter_the_email(email)
         rp.enter_the_pwd(pwd)
         rp.enter_the_cpwd(pwd)
-
         # Log entered data (excluding sensitive details for security reasons)
         logger1.info(f"Entered details: <First Name: {fn}, Last Name: {ln}, Email: {email}>")
-
         # Perform registration action
         rp.click_on_reg_buton()
 

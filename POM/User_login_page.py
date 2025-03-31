@@ -38,3 +38,12 @@ class login_page_User:
             assert True
         else:
             assert False
+
+    # def select_option_from_text(self,text):
+    #     s = Select(ele)
+    #     dropdown_ele.selectBy_text(text)
+    #
+    # def all _option():
+    #
+    # s = Select(ele)
+    # retun s.option
